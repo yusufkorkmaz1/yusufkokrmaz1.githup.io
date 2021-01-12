@@ -1,0 +1,35 @@
+#texbody {
+    text-align: center;
+    position: absolute;
+    top: 65;
+    left: 65;
+    transforn: translate(-65, -65);
+    color: white;
+}
+
+#backgroundbody{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background: url(background.png);
+    background-size: cover;
+    background-color: springgreen;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:none;
+    margin: 10px 4px;
+    border-radius: 60;
+    
+    background:border-box ;
+    color: rgba(red, green, blue, alpha);
+
+}
+
+.fa:hover {
+     opacity:0.5;
+
+}
